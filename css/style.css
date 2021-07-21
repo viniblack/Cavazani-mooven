@@ -1,0 +1,146 @@
+body,
+a {
+  color: #3C3C3C !important;
+}
+
+.active {
+  color: #CB251B !important;
+}
+
+.banner-img {
+  width: 65rem;
+  top: -4rem;
+  left: -3rem;
+  position: relative;
+
+}
+
+.btn-saiba-mais {
+  background-color: #CB251B !important;
+  border-radius: .5rem;
+  top: 26rem;
+  left: 10rem;
+  width: 15rem;
+  height: 3.5rem;
+}
+
+.btn-saiba-mais a {
+  color: #fff !important;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.capital {
+  top: 6rem;
+  right: 0;
+  width: 12rem;
+}
+
+@media (min-width: 992px) {
+  .banner-img {
+    width: 75rem;
+    top: -5rem;
+    left: -1rem;
+
+  }
+
+  .pre-lancamento {
+    position: absolute;
+    top: 7rem;
+    background: #994784;
+    right: 3rem;
+    width: 25rem;
+    border-radius: .5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  .pre-lancamento span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}
+
+.btn-saiba-mais {
+  top: 25rem;
+  left: 8rem;
+  height: 2.5rem;
+  width: 12rem;
+}
+
+
+.cards-produtos {
+  top: 30rem;
+  left: 7rem;
+}
+
+.busque-imovel {
+  background-color: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  top: 15rem;
+  right: 3rem;
+  border-radius: .5rem;
+  width: 25rem;
+  padding: 2rem;
+}
+
+.option {
+  width: 20rem;
+  margin: .8rem 0;
+  background-color: rgba(255, 0, 0, 0);
+  border-radius: .5rem;
+  padding: .5rem;
+}
+
+@media (min-width: 1200px) {
+  .banner-img {
+    width: 87rem;
+    top: -5rem;
+    left: -1rem;
+
+  }
+
+  .btn-saiba-mais {
+    top: 29rem;
+    left: 9rem;
+    height: 2.5rem;
+    width: 12rem;
+  }
+
+  .btn-saiba-mais a {
+    font-size: 1rem;
+  }
+
+  .cards-produtos {
+    top: 33rem;
+    left: 10rem;
+  }
+
+}
+
+@media (min-width: 1400px) {
+
+  .banner-img {
+    width: 120rem;
+    top: -5rem;
+    left: -1rem;
+  }
+
+  .btn-saiba-mais {
+    top: 39rem;
+    left: 13rem;
+
+  }
+
+  .cards-produtos {
+    top: 45rem;
+
+  }
+
+}
