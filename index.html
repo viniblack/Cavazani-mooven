@@ -120,16 +120,78 @@
             <button type="button" class="btn btn-saiba-mais position-absolute ">
               <a href="#">Saiba Mais</a>
             </button>
-            <div class="row  position-absolute d-none d-lg-flex cards-produtos">
-              <div class="col d-flex justify-content-center">
-                <img class="w-75" src="img/conheca-produtos.png" alt="">
-              </div>
-              <div class="col d-flex justify-content-center">
-                <img class="w-75" src="img/casa-amarela.png" alt="">
-              </div>
-              <div class="col d-flex justify-content-center">
-                <img class="w-75" src="img/conheca-promocoes.png" alt="">
-              </div>
+            <div class="row position-absolute cards-produtos w-100">
+              <ul class="cards d-flex align-items-center mt-3">
+                <li id="produtos">
+                  <img src="./img/cava.svg" alt="">
+                  <span>Conheça nossos produtos</span>
+                  <div class="arrow">
+                    <svg width="66" height="66" viewBox="0 0 66 66" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="33" cy="27" r="26" fill="#CB251B"></circle>
+                      <g filter="url(#filter0_f)">
+                        <circle cx="33" cy="33" r="17" fill="black" fill-opacity="0.1"></circle>
+                      </g>
+                      <circle cx="33" cy="27" r="23" fill="white"></circle>
+                      <path d="M32.6923 20L41 27.5L32.6923 35M39.8462 27.5H23" stroke="#CB251B" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round"></path>
+                      <defs>
+                        <filter id="filter0_f" x="0" y="0" width="66" height="66" filterUnits="userSpaceOnUse"
+                          color-interpolation-filters="sRGB">
+                          <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend>
+                          <feGaussianBlur stdDeviation="8" result="effect1_foregroundBlur"></feGaussianBlur>
+                        </filter>
+                      </defs>
+                    </svg>
+                  </div>
+                </li>
+                <li id="casa-verde-amarela">
+                  <img src="./img/casa.svg" alt="">
+                  <span>Casa verde e amarela</span>
+                  <div class="arrow">
+                    <svg width="66" height="66" viewBox="0 0 66 66" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="33" cy="27" r="26" fill="#FFD600"></circle>
+                      <g filter="url(#filter0_f)">
+                        <circle cx="33" cy="33" r="17" fill="black" fill-opacity="0.1"></circle>
+                      </g>
+                      <circle cx="33" cy="27" r="23" fill="white"></circle>
+                      <path d="M32.6923 20L41 27.5L32.6923 35M39.8462 27.5H23" stroke="#FFD600" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round"></path>
+                      <defs>
+                        <filter id="filter0_f" x="0" y="0" width="66" height="66" filterUnits="userSpaceOnUse"
+                          color-interpolation-filters="sRGB">
+                          <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend>
+                          <feGaussianBlur stdDeviation="8" result="effect1_foregroundBlur"></feGaussianBlur>
+                        </filter>
+                      </defs>
+                    </svg>
+                  </div>
+                </li>
+                <li id="promocoes">
+                  <img src="./img/fone.svg" alt="">
+                  <span>Conheça nossas promoções</span>
+                  <div class="arrow">
+                    <svg width="66" height="66" viewBox="0 0 66 66" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="33" cy="27" r="26" fill="#1B8A1F"></circle>
+                      <g filter="url(#filter0_f)">
+                        <circle cx="33" cy="33" r="17" fill="black" fill-opacity="0.1"></circle>
+                      </g>
+                      <circle cx="33" cy="27" r="23" fill="white"></circle>
+                      <path d="M32.6923 20L41 27.5L32.6923 35M39.8462 27.5H23" stroke="#1B8A1F" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round"></path>
+                      <defs>
+                        <filter id="filter0_f" x="0" y="0" width="66" height="66" filterUnits="userSpaceOnUse"
+                          color-interpolation-filters="sRGB">
+                          <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend>
+                          <feGaussianBlur stdDeviation="8" result="effect1_foregroundBlur"></feGaussianBlur>
+                        </filter>
+                      </defs>
+                    </svg>
+                  </div>
+                </li>
+              </ul>
             </div>
             <div class="d-none d-lg-flex pre-lancamento">
               <span>
@@ -137,31 +199,24 @@
               </span>
             </div>
             <div class="row">
-              <div class="col d-none d-lg-flex">
-                <div class="busque-imovel">
-                  <h2>Encontre o seu</h2>
-                  <h2>imóvel aqui...</h2>
-                  <select class="option" id="cars">
-                    <option value="volvo">Valor do imóvel</option>
-                    <option value="saab">Saab</option>
-                    <option value="mercedes">Mercedes</option>
-                    <option value="audi">Audi</option>
-                  </select>
-
-                  <select class="option" id="cars">
-                    <option value="volvo">Bairro</option>
-                    <option value="saab">Saab</option>
-                    <option value="mercedes">Mercedes</option>
-                    <option value="audi">Audi</option>
-                  </select>
-                </div>
+              <div class="col d-none d-lg-flex busque-imovel">
+                <h2 class="fs-4">Encontre o seu</h2>
+                <h2 class="fs-4" style="color: #CB251B;">imóvel aqui...</h2>
+                <select class="option" id="cars">
+                  <option value="volvo">Valor do imóvel</option>
+                  <option value="saab">Saab</option>
+                  <option value="mercedes">Mercedes</option>
+                  <option value="audi">Audi</option>
+                </select>
+                <select class="option" id="cars">
+                  <option value="volvo">Bairro</option>
+                  <option value="saab">Saab</option>
+                  <option value="mercedes">Mercedes</option>
+                  <option value="audi">Audi</option>
+                </select>
+                <input type="submit" class=" btn btn_submit" value="Buscar">
               </div>
             </div>
-          </div>
-        </div>
-        <div class="row" style="background-color: red;">
-          <div class="col">
-            sda
           </div>
         </div>
       </div>
