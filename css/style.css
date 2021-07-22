@@ -1,10 +1,12 @@
 body,
 a {
   color: #3C3C3C !important;
+  
 }
 
 .active {
   color: #CB251B !important;
+
 }
 
 .banner-img {
@@ -14,13 +16,17 @@ a {
   top: -4rem;
   width: 65rem;
 
+
 }
 
 .capital {
   right: 0;
   top: 6rem;
+
   width: 12rem;
+
 }
+
 
 
 .btn-saiba-mais {
@@ -29,7 +35,9 @@ a {
   height: 3.5rem;
   left: 10rem;
   top: 26rem;
+
   width: 15rem;
+
 }
 
 .btn-saiba-mais a {
@@ -42,13 +50,17 @@ a {
 
 }
 
-.cards-produtos{
+.cards-produtos {
   top: 40rem;
   z-index: 2;
+
+  width: 100%;
+
 }
 
 .cards {
   list-style-type: none;
+
 }
 
 .cards li {
@@ -65,18 +77,22 @@ a {
   margin: .5rem 0;
   padding-left: 1rem;
   width: 80vw;
+
 }
 
 .cards li:nth-child(1) {
   background-color: #CB251B;
+
 }
 
 .cards li:nth-child(2) {
   background-color: #FFD600;
+
 }
 
 .cards li:nth-child(3) {
   background-color: #1B8A1F;
+
 }
 
 .cards span {
@@ -84,10 +100,12 @@ a {
   font-weight: bold;
 
   width: 15rem;
+
 }
 
 .cards {
   flex-direction: column;
+
 }
 
 .arrow {
@@ -95,11 +113,37 @@ a {
 
   left: 2rem;
   top: .5rem;
+
+}
+
+.btn_submit {
+  background: #cc3532;
+  color: #ffffff;
+  margin-top: 1rem;
+  width: 95%;
+
 }
 
 .ondas {
   z-index: 0;
   top: 35rem;
+
+}
+
+.icons {
+  background-color: #CB251B;
+  z-index: 3;
+
+}
+
+.icons ul {
+  margin-top: -20px;
+
+}
+
+.icons img {
+  width: 7rem;
+
 }
 
 
@@ -116,11 +160,14 @@ a {
     left: 8rem;
     top: 25rem;
     width: 12rem;
+
   }
 
   .cards-produtos {
     left: 7rem;
     top: 30rem;
+    width: 0;
+
   }
 
   .cards li {
@@ -133,11 +180,14 @@ a {
     margin: 0 1rem;
     padding: 2rem 0;
     width: 10rem;
+
   }
 
   .cards {
     flex-direction: row;
+  
     z-index: 2;
+
   }
 
 
@@ -145,6 +195,7 @@ a {
   #casa-verde-amarela:hover,
   #promocoes:hover {
     top: -1rem;
+
   }
 
   .cards span {
@@ -157,6 +208,7 @@ a {
 
     top: 8.5rem;
     left: 3rem;
+
   }
 
 
@@ -173,13 +225,15 @@ a {
     right: 3rem;
     top: 7rem;
     width: 25rem;
+
   }
 
   .pre-lancamento span {
     font-weight: bold;
     text-transform: uppercase;
-
+  
     font-size: 1.5rem;
+
   }
 
   .busque-imovel {
@@ -191,6 +245,7 @@ a {
     right: 3rem;
     top: 13rem;
     width: 25rem;
+
   }
 
   .option {
@@ -199,11 +254,14 @@ a {
     margin: .5rem 0;
     padding: .5rem;
     width: 20rem;
+
   }
 
   .ondas {
     top: 35rem;
+
   }
+
 
 
 }
@@ -221,27 +279,26 @@ a {
     left: 9rem;
     top: 29rem;
     width: 12rem;
+
   }
 
   .btn-saiba-mais a {
     font-size: 1rem;
+
   }
 
   .cards-produtos {
     left: 10rem;
     top: 33rem;
+
   }
 
-  .btn_submit {
-    background: #cc3532;
-    color: #ffffff;
-    margin-top: 1rem;
-    width: 95%;
-  }
 
   .ondas {
     top: 40rem;
+
   }
+
 
 }
 
@@ -251,6 +308,7 @@ a {
     left: -1rem;
     top: -5rem;
     width: 120rem;
+
   }
 
   .btn-saiba-mais {
@@ -266,15 +324,19 @@ a {
 
   .pre-lancamento {
     top: 10rem;
+
   }
 
   .busque-imovel {
     top: 17rem;
-}
+
+  }
 
   .ondas {
     z-index: 0;
     top: 55rem;
+    
   }
+
 
 }

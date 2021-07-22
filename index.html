@@ -13,10 +13,15 @@
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
   </script>
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,800;1,400;1,800&display=swap"
+    rel="stylesheet">
+
   <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body style="height: 12rem;">
+<body style="height: 100rem;">
   <header>
     <nav class="navbar navbar-expand-lg navbar-light fixed-top p-3" style="background-color: rgba(255, 255, 255, 0.9);">
       <div class="container-fluid">
@@ -119,7 +124,7 @@
             <button type="button" class="btn btn-saiba-mais position-absolute ">
               <a href="#">Saiba Mais</a>
             </button>
-            <div class="row position-absolute cards-produtos w-100">
+            <div class="row position-absolute cards-produtos">
               <ul class="cards d-flex align-items-center mt-3">
                 <li id="produtos">
                   <img src="./img/cava.svg" alt="">
@@ -220,16 +225,40 @@
             </div>
           </div>
           <div class="position-absolute p-0 ondas">
-            <img src="img/ondas.svg" alt="" style="width: 100vw;">
+            <img src="img/ondas.svg" alt="" style="width: 100%;">
           </div>
         </div>
       </div>
+      <div class="position-fixed d-none d-lg-flex" style="right: 1rem; bottom: 1rem; z-index: 4;">
+        <a target="_blank" href="https://api.whatsapp.com/send?phone=5511982388234">
+          <img src="img/whats.png" alt="">
+        </a>
+      </div>
+      <div class="icons w-100 position-fixed d-block d-lg-none" style="bottom: 0rem;">
+        <ul class="d-flex justify-content-around mx-auto" style="margin-left: -32px !important;">
+          <li class="d-flex justify-content">
+            <a href="#">
+              <img src="img/financiamento-icon.svg" alt="">
+            </a>
+          </li>
+          <li class="d-flex justify-content-center">
+            <a href="#">
+              <img src="img/busca-icon.svg" alt="">
+            </a>
+          </li>
+          <li class="d-flex justify-content-center">
+            <a href="#">
+              <img src="img/whatsapp-icon.svg" alt="">
+            </a>
+          </li>
+          <li class="d-flex justify-content-center">
+            <a href="#">
+              <img src="img/waze-icon.svg" alt="">
+            </a>
+          </li>
+        </ul>
+      </div>
     </section>
-    <div class="position-fixed d-none d-lg-flex" style="right: 1rem; bottom: 1rem;">
-      <a target="_blank" href="https://api.whatsapp.com/send?phone=5511982388234">
-        <img src="img/whats.png" alt="">
-      </a>
-    </div>
   </main>
 </body>
 
