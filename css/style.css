@@ -42,6 +42,10 @@ a {
 
 }
 
+.cards-produtos{
+  top: 40rem;
+  z-index: 2;
+}
 
 .cards {
   list-style-type: none;
@@ -93,6 +97,11 @@ a {
   top: .5rem;
 }
 
+.ondas {
+  z-index: 0;
+  top: 35rem;
+}
+
 
 @media (min-width: 992px) {
   .banner-img {
@@ -128,6 +137,7 @@ a {
 
   .cards {
     flex-direction: row;
+    z-index: 2;
   }
 
 
@@ -179,7 +189,7 @@ a {
     border-radius: .5rem;
     padding: 2rem;
     right: 3rem;
-    top: 15rem;
+    top: 13rem;
     width: 25rem;
   }
 
@@ -191,6 +201,9 @@ a {
     width: 20rem;
   }
 
+  .ondas {
+    top: 35rem;
+  }
 
 
 }
@@ -226,6 +239,9 @@ a {
     width: 95%;
   }
 
+  .ondas {
+    top: 40rem;
+  }
 
 }
 
@@ -246,6 +262,19 @@ a {
   .cards-produtos {
     top: 45rem;
 
+  }
+
+  .pre-lancamento {
+    top: 10rem;
+  }
+
+  .busque-imovel {
+    top: 17rem;
+}
+
+  .ondas {
+    z-index: 0;
+    top: 55rem;
   }
 
 }
