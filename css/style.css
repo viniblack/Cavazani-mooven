@@ -1,8 +1,10 @@
 body,
 a {
   color: #3C3C3C !important;
-  
+  font-family: 'Nunito', sans-serif;
 }
+
+/* Banner SM */
 
 .active {
   color: #CB251B !important;
@@ -27,15 +29,12 @@ a {
 
 }
 
-
-
 .btn-saiba-mais {
   background-color: #CB251B !important;
   border-radius: .5rem;
   height: 3.5rem;
   left: 10rem;
   top: 26rem;
-
   width: 15rem;
 
 }
@@ -146,8 +145,40 @@ a {
 
 }
 
+/* Destaques SM */
+
+.destaques {
+  margin: 19rem 0;
+
+}
+
+.destaques-titulo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  font-size: 3rem;
+  width: 10rem;
+  z-index: 2;
+}
+
+.destaques-titulo span {
+  color: #ffffff;
+  font-size: 4.5rem;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #CB251B;
+}
+
+.destaques-texto {
+  font-size: 1.5rem;
+  text-align: center;
+  width: 24rem;
+}
 
 @media (min-width: 992px) {
+
+  /* Banner LG */
+
   .banner-img {
     left: -1rem;
     top: -5rem;
@@ -185,11 +216,10 @@ a {
 
   .cards {
     flex-direction: row;
-  
+
     z-index: 2;
 
   }
-
 
   #produtos:hover,
   #casa-verde-amarela:hover,
@@ -211,7 +241,6 @@ a {
 
   }
 
-
   .pre-lancamento {
     align-items: center;
     display: flex;
@@ -231,7 +260,7 @@ a {
   .pre-lancamento span {
     font-weight: bold;
     text-transform: uppercase;
-  
+
     font-size: 1.5rem;
 
   }
@@ -262,11 +291,22 @@ a {
 
   }
 
+  /* Destaques LG */
 
+  .destaques {
+    margin: 0;
+  } 
+
+  .destaques-texto {
+   width: 100%;
+  }
 
 }
 
 @media (min-width: 1200px) {
+
+  /* Banner XL */
+
   .banner-img {
     left: -1rem;
     top: -5rem;
@@ -299,10 +339,13 @@ a {
 
   }
 
+  /* Destaques XL */
 
 }
 
 @media (min-width: 1400px) {
+
+  /* Banner XXL */
 
   .banner-img {
     left: -1rem;
@@ -335,8 +378,10 @@ a {
   .ondas {
     z-index: 0;
     top: 55rem;
-    
+
   }
+
+  /* Destaques XXL */
 
 
 }

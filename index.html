@@ -15,7 +15,8 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,800;1,400;1,800&display=swap"
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,800;0,900;1,400;1,800;1,900&display=swap"
     rel="stylesheet">
 
   <link rel="stylesheet" href="./css/style.css">
@@ -115,19 +116,19 @@
     </nav>
   </header>
   <main class="mt-5 pt-5">
-    <section>
+    <section class="banner">
       <div class="container-fluid">
         <div class="row">
           <div class="col overflow-hidden">
-            <img src="./img/bg.jpg" class="banner-img p-0 m-0" alt="">
-            <img src="./img/capitalismo.svg" class="d-lg-none d-flex capital position-absolute " alt="">
+            <img src="./img/banner/bg.jpg" class="banner-img p-0 m-0" alt="">
+            <img src="./img/banner/capitalismo.svg" class="d-lg-none d-flex capital position-absolute " alt="">
             <button type="button" class="btn btn-saiba-mais position-absolute ">
               <a href="#">Saiba Mais</a>
             </button>
             <div class="row position-absolute cards-produtos">
               <ul class="cards d-flex align-items-center mt-3">
                 <li id="produtos">
-                  <img src="./img/cava.svg" alt="">
+                  <img src="./img/banner/cards-flutuante/cava.svg" alt="">
                   <span>Conheça nossos produtos</span>
                   <div class="arrow">
                     <svg width="66" height="66" viewBox="0 0 66 66" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -150,7 +151,7 @@
                   </div>
                 </li>
                 <li id="casa-verde-amarela">
-                  <img src="./img/casa.svg" alt="">
+                  <img src="./img/banner/cards-flutuante/casa.svg" alt="">
                   <span>Casa verde e amarela</span>
                   <div class="arrow">
                     <svg width="66" height="66" viewBox="0 0 66 66" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -173,7 +174,7 @@
                   </div>
                 </li>
                 <li id="promocoes">
-                  <img src="./img/fone.svg" alt="">
+                  <img src="./img/banner/cards-flutuante/fone.svg" alt="">
                   <span>Conheça nossas promoções</span>
                   <div class="arrow">
                     <svg width="66" height="66" viewBox="0 0 66 66" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -225,7 +226,7 @@
             </div>
           </div>
           <div class="position-absolute p-0 ondas">
-            <img src="img/ondas.svg" alt="" style="width: 100%;">
+            <img src="img/banner/ondas.svg" alt="" style="width: 100%;">
           </div>
         </div>
       </div>
@@ -238,25 +239,53 @@
         <ul class="d-flex justify-content-around mx-auto" style="margin-left: -32px !important;">
           <li class="d-flex justify-content">
             <a href="#">
-              <img src="img/financiamento-icon.svg" alt="">
+              <img src="img/cards-fixed/financiamento-icon.svg" alt="">
             </a>
           </li>
           <li class="d-flex justify-content-center">
             <a href="#">
-              <img src="img/busca-icon.svg" alt="">
+              <img src="img/cards-fixed/busca-icon.svg" alt="">
             </a>
           </li>
           <li class="d-flex justify-content-center">
             <a href="#">
-              <img src="img/whatsapp-icon.svg" alt="">
+              <img src="img/cards-fixed/whatsapp-icon.svg" alt="">
             </a>
           </li>
           <li class="d-flex justify-content-center">
             <a href="#">
-              <img src="img/waze-icon.svg" alt="">
+              <img src="img/cards-fixed/waze-icon.svg" alt="">
             </a>
           </li>
         </ul>
+      </div>
+    </section>
+    <section class="destaques">
+      <div class="container-fluid">
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 d-flex justify-content-center">
+            <h2 class="text-uppercase fw-bold destaques-titulo">
+              Destaques
+              <span>Cavazani</span>
+            </h2>
+          </div>
+          <div class="col-12 d-flex justify-content-center destaques-texto">
+            <p>
+              Aqui embaixo você vai encontrar o apê dos seus sonhos
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   </main>
