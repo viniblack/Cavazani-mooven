@@ -1,13 +1,22 @@
+:root {
+  --cv-primary: #CB251B;
+  --cv-text-color: #3C3C3C;
+  --cv-main-font: 'Nunito', sans-serif;
+  --cv-border-radius-secondary: .5rem;
+  --cv-border-radius-primary: 1rem;
+  --cv-color-light: #ffffff;
+}
+
 body,
 a {
-  color: #3C3C3C !important;
-  font-family: 'Nunito', sans-serif;
+  color: var(--cv-text-color) !important;
+  font-family: var(--cv-main-font);
 }
 
 /* Banner SM */
 
 .active {
-  color: #CB251B !important;
+  color: var(--cv-primary) !important;
 
 }
 
@@ -30,8 +39,8 @@ a {
 }
 
 .btn-saiba-mais {
-  background-color: #CB251B !important;
-  border-radius: .5rem;
+  background-color: var(--cv-primary) !important;
+  border-radius: var(--cv-border-radius-secondary);
   height: 3.5rem;
   left: 10rem;
   top: 26rem;
@@ -45,7 +54,7 @@ a {
   text-decoration: none;
   text-transform: uppercase;
 
-  color: #ffffff !important;
+  color: var(--cv-color-light) !important;
 
 }
 
@@ -69,8 +78,8 @@ a {
   justify-content: space-between;
   position: relative;
 
-  border-radius: 1rem;
-  color: #ffffff;
+  border-radius: var(--cv-border-radius-primary);
+  color: var(--cv-color-light);
   display: flex;
   height: 5rem;
   margin: .5rem 0;
@@ -116,8 +125,8 @@ a {
 }
 
 .btn_submit {
-  background: #cc3532;
-  color: #ffffff;
+  background: var(--cv-primary);
+  color: var(--cv-color-light);
   margin-top: 1rem;
   width: 95%;
 
@@ -130,7 +139,7 @@ a {
 }
 
 .icons {
-  background-color: #CB251B;
+  background-color: var(--cv-primary);
   z-index: 3;
 
 }
@@ -163,10 +172,10 @@ a {
 }
 
 .destaques-titulo span {
-  color: #ffffff;
+  color: var(--cv-color-light);
   font-size: 4.5rem;
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: #CB251B;
+  -webkit-text-stroke-color: var(--cv-primary);
 }
 
 .destaques-texto {
@@ -206,7 +215,7 @@ a {
     transform: translateY(0px);
     transition: transform ease-in 0.2s;
 
-    border-radius: 1rem;
+    border-radius: var(--cv-border-radius-primary);
     height: 10.5rem;
     margin: 0 1rem;
     padding: 2rem 0;
@@ -248,8 +257,8 @@ a {
     position: absolute;
 
     background: #994784;
-    border-radius: .5rem;
-    color: #ffffff;
+    border-radius: var(--cv-border-radius-secondary);
+    color: var(--cv-color-light);
     height: 5rem;
     right: 3rem;
     top: 7rem;
@@ -268,8 +277,8 @@ a {
   .busque-imovel {
     position: absolute;
 
-    background-color: #ffffffcc;
-    border-radius: .5rem;
+    background-color: var(--cv-color-light);
+    border-radius: var(--cv-border-radius-secondary);
     padding: 2rem;
     right: 3rem;
     top: 13rem;
@@ -278,8 +287,8 @@ a {
   }
 
   .option {
-    background-color: #ff000000;
-    border-radius: .5rem;
+    background-color: transparent;
+    border-radius: var(--cv-border-radius-secondary);
     margin: .5rem 0;
     padding: .5rem;
     width: 20rem;
@@ -295,10 +304,10 @@ a {
 
   .destaques {
     margin: 0;
-  } 
+  }
 
   .destaques-texto {
-   width: 100%;
+    width: 100%;
   }
 
 }
