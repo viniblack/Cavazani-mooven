@@ -22,33 +22,32 @@
   <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body style="height: 230rem;">
+<body style="height: 250rem;">
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top p-3" style="background-color: rgba(255, 255, 255, 0.9);">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top p-3">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <h1 class="d-none">
             Cavazani construtora
           </h1>
-          <img src="img/menu/logo.png" alt="" style="width: 8.5rem;">
+          <img src="img/menu/logo.png" class="logo" alt="">
         </a>
         <div>
           <button class="navbar-toggler btn border-0">
-            <img src="./img/menu/busca.svg" alt="" style="width: 4rem;">
+            <img src="./img/menu/busca.svg" alt="" class="btn-logo">
           </button>
           <button class="navbar-toggler btn border-0" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
-            <img src="./img/menu/menu.svg" alt="" style="width: 4rem;">
+            <img src="./img/menu/menu.svg" alt="" class="btn-logo">
           </button>
         </div>
         <div class="collapse navbar-collapse" id="menu">
-          <ul class="navbar-nav mx-auto">
+          <ul class="navbar-nav mx-auto lista-menu">
             <li class="nav-item mx-xl-1 mx-xxl-3">
-              <a class="nav-link active text-uppercase" aria-current="page" href="#"
-                style="font-size: .9rem;">Empreendimentos</a>
+              <a class="nav-link active text-uppercase" aria-current="page" href="#">Empreendimentos</a>
             </li>
             <li class="nav-item mx-xl-1 mx-xxl-3 dropdown">
               <a class="nav-link dropdown-toggle text-uppercase" href="#" id="navbarDropdown" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false" style="font-size: .9rem;">
+                data-bs-toggle="dropdown" aria-expanded="false">
                 Cavazani
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -61,11 +60,11 @@
               </ul>
             </li>
             <li class="nav-item mx-xl-1 mx-xxl-3">
-              <a class="nav-link text-uppercase" aria-current="page" href="#" style="font-size: .9rem;">Blog</a>
+              <a class="nav-link text-uppercase" aria-current="page" href="#">Blog</a>
             </li>
             <li class="nav-item mx-xl-1 mx-xxl-3 dropdown">
               <a class="nav-link dropdown-toggle text-uppercase" href="#" id="navbarDropdown" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false" style="font-size: .9rem;">
+                data-bs-toggle="dropdown" aria-expanded="false">
                 Promoções
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -78,13 +77,13 @@
               </ul>
             </li>
             <li class="nav-item mx-xl-1 mx-xxl-3">
-              <a class="nav-link text-uppercase" href="#" style="font-size: .9rem;">Contato</a>
+              <a class="nav-link text-uppercase" href="#">Contato</a>
             </li>
             <li class="nav-item mx-xl-1 mx-xxl-3">
-              <a class="nav-link text-uppercase" href="#" style="font-size: .9rem;">Parceiro</a>
+              <a class="nav-link text-uppercase" href="#">Parceiro</a>
             </li>
             <li class="nav-item mx-xl-1 mx-xxl-3">
-              <a class="nav-link text-uppercase" href="#" style="font-size: .9rem;">Sac</a>
+              <a class="nav-link text-uppercase" href="#">Sac</a>
             </li>
           </ul>
         </div>
@@ -92,22 +91,22 @@
           <ul class="navbar-nav d-flex align-items-center">
             <li>
               <a href="#">
-                <img src="./img/espaco-cliente.svg" style="width: 3.3rem;" alt="">
+                <img class="img-btn-icons" src="./img/espaco-cliente.svg" alt="">
               </a>
             </li>
             <li>
               <a href="#">
-                <img src="./img/espaco-corretor.svg" style="width: 3.3rem;" alt="">
+                <img class="img-btn-icons" src="./img/espaco-corretor.svg" alt="">
               </a>
             </li>
             <li>
               <a href="#">
-                <img src="./img/trabalhe-conosco.svg" style="width: 3.3rem;" alt="">
+                <img class="img-btn-icons" src="./img/trabalhe-conosco.svg" alt="">
               </a>
             </li>
             <li>
               <a href="#">
-                <img src="./img/busca.svg" style="width: 3.3rem;" alt="">
+                <img class="img-btn-icons" src="./img/busca.svg" alt="">
               </a>
             </li>
           </ul>
@@ -122,7 +121,7 @@
           <div class="col overflow-hidden">
             <img src="./img/banner/bg.jpg" class="banner-img p-0 m-0" alt="">
             <img src="./img/banner/capitalismo.svg" class="d-lg-none d-flex capital position-absolute " alt="">
-            <button type="button" class="btn btn-saiba-mais position-absolute ">
+            <button type="button" class="btn cv-btn position-absolute ">
               <a href="#">Saiba Mais</a>
             </button>
             <div class="row position-absolute cards-produtos">
@@ -207,7 +206,7 @@
               <div class="col d-none d-lg-flex">
                 <div class="busque-imovel">
                   <h2 class="fs-4">Encontre o seu</h2>
-                  <h2 class="fs-4" style="color: #CB251B;">imóvel aqui...</h2>
+                  <h2 class="fs-4">imóvel aqui...</h2>
                   <select class="option" id="cars">
                     <option value="volvo">Valor do imóvel</option>
                     <option value="saab">Saab</option>
@@ -226,17 +225,17 @@
             </div>
           </div>
           <div class="position-absolute p-0 ondas">
-            <img src="img/banner/ondas.svg" alt="" style="width: 100%;">
+            <img src="img/banner/ondas.svg" class="w-100" alt="">
           </div>
         </div>
       </div>
-      <div class="position-fixed d-lg-flex" style="right: 0; bottom: 0; z-index: 4;">
+      <div class="position-fixed d-lg-flex justify-content-end btn-whatsapp">
         <a target="_blank" href="https://api.whatsapp.com/send?phone=5511982388234">
-          <img src="img/whats.png" alt="" style="width: 5rem;">
+          <img src="img/whats.png" alt="">
         </a>
       </div>
-      <div class="icons w-100 position-fixed d-block d-lg-none" style="bottom: 0rem;">
-        <ul class="d-flex justify-content-around mx-auto" style="margin-left: -32px !important;">
+      <div class="icons w-100 position-fixed d-block d-lg-none menu-bottom-mobile ">
+        <ul class="d-flex justify-content-around mx-auto">
           <li class="d-flex justify-content">
             <a href="#">
               <img src="img/cards-fixed/financiamento-icon.svg" alt="">
@@ -288,7 +287,7 @@
               <div class="row mt-2">
                 <div class="col d-flex justify-content-center align-items-center">
                   <span class="fw-bold">
-                    <svg style="margin-right: .5rem;" width="18" height="21" viewBox="0 0 18 21" fill="none"
+                    <svg class="map-svg" width="18" height="21" viewBox="0 0 18 21" fill="none"
                       xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M12.0772 13.7874C14.1965 10.5 13.9301 10.9102 13.9912 10.8245C14.7628 9.74866 15.1706 8.48249 15.1706 7.16275C15.1706 3.66289 12.2975 0.779785 8.75226 0.779785C5.2186 0.779785 2.33394 3.6572 2.33394 7.16275C2.33394 8.48164 2.75031 9.78096 3.54719 10.8713L5.42726 13.7874C3.41716 14.0928 0 15.0027 0 17.0064C0 17.7368 0.482269 18.7776 2.7798 19.5887C4.38407 20.1551 6.50511 20.467 8.75226 20.467C12.9543 20.467 17.5045 19.2953 17.5045 17.0064C17.5045 15.0024 14.0914 14.0934 12.0772 13.7874ZM4.52196 10.2368C4.51554 10.2268 4.50885 10.2172 4.50185 10.2076C3.83874 9.30585 3.5009 8.23713 3.5009 7.16275C3.5009 4.27819 5.85063 1.93333 8.75226 1.93333C11.6479 1.93333 14.0036 4.27923 14.0036 7.16275C14.0036 8.23886 13.6722 9.27132 13.0449 10.1493C12.9887 10.2226 13.282 9.77227 8.75226 16.7983L4.52196 10.2368ZM8.75226 19.3135C4.16242 19.3135 1.16697 17.9798 1.16697 17.0064C1.16697 16.3521 2.70612 15.2762 6.11678 14.8569L8.26019 18.1815C8.36732 18.3477 8.55287 18.4483 8.75222 18.4483C8.95158 18.4483 9.13717 18.3477 9.24426 18.1815L11.3876 14.8569C14.7984 15.2762 16.3376 16.3521 16.3376 17.0064C16.3376 17.9716 13.3691 19.3135 8.75226 19.3135Z"
@@ -426,7 +425,7 @@
               <div class="row mt-2" style="height: 2rem;">
                 <div class="col d-flex justify-content-center align-items-center">
                   <span class="fw-bold">
-                    <svg style="margin-right: .5rem;" width="18" height="21" viewBox="0 0 18 21" fill="none"
+                    <svg class="map-svg" width="18" height="21" viewBox="0 0 18 21" fill="none"
                       xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M12.0772 13.7874C14.1965 10.5 13.9301 10.9102 13.9912 10.8245C14.7628 9.74866 15.1706 8.48249 15.1706 7.16275C15.1706 3.66289 12.2975 0.779785 8.75226 0.779785C5.2186 0.779785 2.33394 3.6572 2.33394 7.16275C2.33394 8.48164 2.75031 9.78096 3.54719 10.8713L5.42726 13.7874C3.41716 14.0928 0 15.0027 0 17.0064C0 17.7368 0.482269 18.7776 2.7798 19.5887C4.38407 20.1551 6.50511 20.467 8.75226 20.467C12.9543 20.467 17.5045 19.2953 17.5045 17.0064C17.5045 15.0024 14.0914 14.0934 12.0772 13.7874ZM4.52196 10.2368C4.51554 10.2268 4.50885 10.2172 4.50185 10.2076C3.83874 9.30585 3.5009 8.23713 3.5009 7.16275C3.5009 4.27819 5.85063 1.93333 8.75226 1.93333C11.6479 1.93333 14.0036 4.27923 14.0036 7.16275C14.0036 8.23886 13.6722 9.27132 13.0449 10.1493C12.9887 10.2226 13.282 9.77227 8.75226 16.7983L4.52196 10.2368ZM8.75226 19.3135C4.16242 19.3135 1.16697 17.9798 1.16697 17.0064C1.16697 16.3521 2.70612 15.2762 6.11678 14.8569L8.26019 18.1815C8.36732 18.3477 8.55287 18.4483 8.75222 18.4483C8.95158 18.4483 9.13717 18.3477 9.24426 18.1815L11.3876 14.8569C14.7984 15.2762 16.3376 16.3521 16.3376 17.0064C16.3376 17.9716 13.3691 19.3135 8.75226 19.3135Z"
@@ -564,7 +563,7 @@
               <div class="row mt-2">
                 <div class="col d-flex justify-content-center align-items-center">
                   <span class="fw-bold">
-                    <svg style="margin-right: .5rem;" width="18" height="21" viewBox="0 0 18 21" fill="none"
+                    <svg class="map-svg" width="18" height="21" viewBox="0 0 18 21" fill="none"
                       xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M12.0772 13.7874C14.1965 10.5 13.9301 10.9102 13.9912 10.8245C14.7628 9.74866 15.1706 8.48249 15.1706 7.16275C15.1706 3.66289 12.2975 0.779785 8.75226 0.779785C5.2186 0.779785 2.33394 3.6572 2.33394 7.16275C2.33394 8.48164 2.75031 9.78096 3.54719 10.8713L5.42726 13.7874C3.41716 14.0928 0 15.0027 0 17.0064C0 17.7368 0.482269 18.7776 2.7798 19.5887C4.38407 20.1551 6.50511 20.467 8.75226 20.467C12.9543 20.467 17.5045 19.2953 17.5045 17.0064C17.5045 15.0024 14.0914 14.0934 12.0772 13.7874ZM4.52196 10.2368C4.51554 10.2268 4.50885 10.2172 4.50185 10.2076C3.83874 9.30585 3.5009 8.23713 3.5009 7.16275C3.5009 4.27819 5.85063 1.93333 8.75226 1.93333C11.6479 1.93333 14.0036 4.27923 14.0036 7.16275C14.0036 8.23886 13.6722 9.27132 13.0449 10.1493C12.9887 10.2226 13.282 9.77227 8.75226 16.7983L4.52196 10.2368ZM8.75226 19.3135C4.16242 19.3135 1.16697 17.9798 1.16697 17.0064C1.16697 16.3521 2.70612 15.2762 6.11678 14.8569L8.26019 18.1815C8.36732 18.3477 8.55287 18.4483 8.75222 18.4483C8.95158 18.4483 9.13717 18.3477 9.24426 18.1815L11.3876 14.8569C14.7984 15.2762 16.3376 16.3521 16.3376 17.0064C16.3376 17.9716 13.3691 19.3135 8.75226 19.3135Z"
@@ -684,6 +683,13 @@
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col d-flex justify-content-center">
+            <button type="button" class="btn cv-btn-destaque fw-bold text-uppercase">
+              <a href="#">Veja todos os Empreendimentos</a>
+            </button>
           </div>
         </div>
       </div>

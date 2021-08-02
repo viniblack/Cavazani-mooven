@@ -13,6 +13,52 @@ a {
   font-family: var(--cv-main-font);
 }
 
+nav {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.logo {
+  width: 8.5rem;
+}
+
+.btn-logo {
+  width: 4rem;
+}
+
+.lista-menu {
+  font-size: .9rem;
+}
+
+.img-btn-icons {
+  width: 3.3rem;
+}
+
+.text-imovel-secondary {
+  color: #CB251B;
+}
+
+.btn-whatsapp {
+  right: 0;
+  bottom: 0;
+  z-index: 4;
+}
+
+.btn-whatsapp img {
+  width: 5rem;
+}
+
+.menu-bottom-mobile {
+  bottom: 0rem;
+}
+
+.menu-bottom-mobile ul {
+  margin-left: -32px !important;
+}
+
+.map-svg{
+  margin-right: .5rem;
+}
+
 /* Banner SM */
 
 .active {
@@ -38,7 +84,7 @@ a {
 
 }
 
-.btn-saiba-mais {
+.cv-btn {
   background-color: var(--cv-primary) !important;
   border-radius: var(--cv-border-radius-secondary);
   height: 3.5rem;
@@ -48,7 +94,7 @@ a {
 
 }
 
-.btn-saiba-mais a {
+.cv-btn a {
   font-weight: bold;
   text-align: center;
   text-decoration: none;
@@ -213,6 +259,17 @@ a {
 
 }
 
+.cv-btn-destaque {
+  margin-top: 3rem;
+  width: 20rem;
+  background-color: var(--cv-primary);
+}
+
+.cv-btn-destaque a {
+  text-decoration: none;
+  color: #ffffff !important;
+}
+
 @media (min-width: 992px) {
 
   /* Banner LG */
@@ -224,7 +281,7 @@ a {
 
   }
 
-  .btn-saiba-mais {
+  .cv-btn {
     height: 2.5rem;
     left: 8rem;
     top: 25rem;
@@ -356,6 +413,12 @@ a {
 
   }
 
+  .cv-btn-destaque {
+    width: 25em;
+    height: 4rem;
+  }
+
+
 }
 
 @media (min-width: 1200px) {
@@ -369,7 +432,7 @@ a {
 
   }
 
-  .btn-saiba-mais {
+  .cv-btn {
     height: 2.5rem;
     left: 9rem;
     top: 29rem;
@@ -377,7 +440,7 @@ a {
 
   }
 
-  .btn-saiba-mais a {
+  .cv-btn a {
     font-size: 1rem;
 
   }
@@ -426,7 +489,7 @@ a {
 
   }
 
-  .btn-saiba-mais {
+  .cv-btn {
     left: 13rem;
     top: 39rem;
 
