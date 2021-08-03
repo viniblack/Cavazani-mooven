@@ -77,7 +77,7 @@ nav {
 
   left: -3rem;
   top: -4rem;
-  width: 67rem;
+  width: 65rem;
 
 
 }
@@ -244,24 +244,25 @@ nav {
   height: 3rem;
   left: 1rem;
   top: 1rem;
-  width: 12rem;
+  width: 10rem;
+  font-size: .9rem;
 
 }
 
 .cv-card {
   border-radius: 1rem;
-  width: 30rem;
+  width: 25rem;
 
 }
 
 .cv-card-banner {
-  width: 30rem;
+  width: 25rem;
 
 }
 
 .cv-card-footer {
   height: 5rem;
-  width: 30rem;
+  width: 25rem;
 
 }
 
