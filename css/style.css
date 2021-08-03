@@ -6,7 +6,9 @@
   --cv-border-radius-primary: 1rem;
   --cv-color-light: #ffffff;
 }
-
+html{
+  overflow-x: hidden;
+}
 body,
 a {
   color: var(--cv-text-color) !important;
