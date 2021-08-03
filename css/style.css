@@ -59,6 +59,10 @@ nav {
   margin-right: .5rem;
 }
 
+.cards-fixed-img{
+  width: 1px;
+}
+
 /* Banner SM */
 
 .active {
