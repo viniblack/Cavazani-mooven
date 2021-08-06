@@ -7,11 +7,7 @@
   --cv-color-light: #ffffff;
 }
 
-body,
-a {
-  color: var(--cv-text-color) !important;
-  font-family: var(--cv-main-font);
-}
+
 
 nav {
   background-color: rgba(255, 255, 255, 0.9);
@@ -55,7 +51,7 @@ nav {
   margin-left: -32px !important;
 }
 
-.map-svg{
+.map-svg {
   margin-right: .5rem;
 }
 
@@ -268,6 +264,41 @@ nav {
 .cv-btn-destaque a {
   text-decoration: none;
   color: #ffffff !important;
+}
+
+
+.cv-destaque-footer {
+  background-color: var(--cv-primary);
+  color: var(--cv-color-light);
+
+}
+
+.cv-btn-whats-footer {
+  margin-top: 3rem;
+  width: 20rem;
+  height: 4rem;
+  background-color: var(--cv-color-light);
+
+}
+
+.cv-btn-whats-footer svg {
+  width: 2rem;
+}
+
+.cv-btn-whats-footer a {
+  color: var(--cv-primary);
+  font-weight: 700;
+}
+
+.cv-destaque-footer-text {
+  color: #FFF915;
+}
+
+.cv-destaque-footer-whtas {
+  bottom: 12rem;
+  left: 7rem;
+  width: 22rem;
+
 }
 
 @media (min-width: 992px) {
