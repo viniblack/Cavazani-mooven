@@ -284,10 +284,24 @@ nav {
   color: #FFF915;
 }
 
-.cv-destaque-footer-whtas {
-  bottom: 7rem;
-  width: 20rem;
+.cv-destaque-footer-whats {
+  bottom: 40vw;
+  width: 100%;
 
+}
+
+.image-destaque-footer {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .image-destaque-footer {
+    width: 50%;
+  }
+
+  .cv-destaque-footer-whats {
+    bottom: 25vw;
+  }
 }
 
 @media (min-width: 992px) {
