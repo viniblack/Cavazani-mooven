@@ -14,11 +14,11 @@ nav {
 }
 
 .logo {
-  width: 8.5rem;
+  width: 6.5rem;
 }
 
 .btn-logo {
-  width: 4rem;
+  width: 3rem;
 }
 
 .lista-menu {
@@ -104,7 +104,7 @@ nav {
   top: 40rem;
   z-index: 2;
 
-  width: 100%;
+  width: 95%;
 
 }
 
@@ -176,7 +176,7 @@ nav {
 
 .ondas {
   z-index: 0;
-  top: 35rem;
+  top: 36rem;
 
 }
 
@@ -188,11 +188,6 @@ nav {
 
 .icons ul {
   margin-top: -20px;
-
-}
-
-.icons img {
-  width: 7rem;
 
 }
 
@@ -244,14 +239,9 @@ nav {
 
 }
 
-.cv-card-banner {
-  width: 100vw;
-
-}
-
 .cv-card-footer {
   height: 5rem;
-  width: 100vw;
+  width: 107%;
 
 }
 
@@ -275,7 +265,7 @@ nav {
 
 .cv-btn-whats-footer {
   margin-top: 3rem;
-  width: 20rem;
+  width: 18rem;
   height: 4rem;
   background-color: var(--cv-color-light);
 
@@ -295,13 +285,20 @@ nav {
 }
 
 .cv-destaque-footer-whtas {
-  bottom: 12rem;
-  left: 7rem;
-  width: 22rem;
+  bottom: 7rem;
+  width: 20rem;
 
 }
 
 @media (min-width: 992px) {
+
+  .logo {
+    width: 8.5rem;
+  }
+
+  .btn-logo {
+    width: 4rem;
+  }
 
   /* Banner LG */
 
@@ -453,11 +450,6 @@ nav {
 
   }
 
-  .cv-card-banner {
-    width: 18rem;
-
-  }
-
   .cv-card-footer {
     height: 5rem;
     width: 18rem;
@@ -516,11 +508,6 @@ nav {
 
   }
 
-  .cv-card-banner {
-    width: 25rem;
-
-  }
-
   .cv-card-footer {
     height: 5rem;
     width: 25rem;
@@ -570,11 +557,6 @@ nav {
   /* Destaques XXL */
   .cv-card {
     border-radius: 1rem;
-    width: 25rem;
-
-  }
-
-  .cv-card-banner {
     width: 25rem;
 
   }
