@@ -7,6 +7,9 @@
   --cv-color-light: #ffffff;
 }
 
+body {
+  font-family: 'Nunito', sans-serif;
+}
 
 
 nav {
@@ -122,7 +125,6 @@ nav {
 
   border-radius: var(--cv-border-radius-primary);
   color: var(--cv-color-light);
-  display: flex;
   height: 5rem;
   margin: .5rem 0;
   padding-left: 1rem;
@@ -226,10 +228,11 @@ nav {
 
 .card-destaque-status {
   background: #CB251c;
-  height: 3rem;
+  font-size: .8rem;
+  height: 2rem;
   left: 1rem;
   top: 1rem;
-  width: 12rem;
+  width: 9rem;
 
 }
 
@@ -264,34 +267,49 @@ nav {
 }
 
 .cv-btn-whats-footer {
-  margin-top: 3rem;
   width: 18rem;
   height: 4rem;
   background-color: var(--cv-color-light);
-
+  position: absolute;
+  transform: translate(-50%, -50%);
 }
 
 .cv-btn-whats-footer svg {
   width: 2rem;
 }
 
-.cv-btn-whats-footer a {
+.cv-btn-whats-footer,
+.cv-btn-whats-footer:hover {
   color: var(--cv-primary);
   font-weight: 700;
+  font-size: .9rem;
+}
+
+.cv-destaque-footer-title {
+  color: #FFF915;
+  font-size: 1.8rem;
 }
 
 .cv-destaque-footer-text {
-  color: #FFF915;
+  font-size: 1.2rem;
+}
+
+.cv-destaque-footer-text-whats {
+  font-size: 1rem;
+}
+
+.cv-destaque-footer-number-whats {
+  font-size: 1.7rem;
 }
 
 .cv-destaque-footer-whats {
-  bottom: 40vw;
+  bottom: 10vw;
   width: 100%;
-
+  position: relative;
 }
 
 .image-destaque-footer {
-  width: 100%;
+  width: 75%;
 }
 
 @media (min-width: 768px) {
@@ -300,11 +318,15 @@ nav {
   }
 
   .cv-destaque-footer-whats {
-    bottom: 25vw;
+    bottom: 15vw;
   }
 }
 
 @media (min-width: 992px) {
+
+  .cv-position-lg-absolute {
+    position: absolute !important;
+  }
 
   .logo {
     width: 8.5rem;
@@ -475,7 +497,42 @@ nav {
     height: 4rem;
   }
 
+  .cv-destaque-footer-whats {
+    position: static;
+    width: 25%;
+  }
 
+  .link-whats {
+    height: 4rem;
+  }
+
+  .cv-btn-whats-footer {
+    position: static;
+    transform: none;
+    width: 15rem;
+  }
+
+  .cv-destaque-footer-title {
+    font-size: 1.75rem;
+  }
+
+  .cv-destaque-footer-text {
+    font-size: 1.25rem;
+  }
+
+  .cv-destaque-footer-number-whats {
+    font-size: 1.7rem;
+  }
+
+  .image-destaque-footer {
+    width: 100%;
+    position: relative;
+    bottom: 0;
+  }
+}
+
+.test {
+  height: 100%;
 }
 
 @media (min-width: 1200px) {
@@ -526,6 +583,10 @@ nav {
     height: 5rem;
     width: 25rem;
 
+  }
+
+  .image-destaque-footer {
+    width: 75%;
   }
 
 }
