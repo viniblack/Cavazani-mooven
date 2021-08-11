@@ -6,25 +6,26 @@
   --cv-border-radius-primary: 1rem;
   --cv-color-light: #ffffff;
 }
-html{
+
+html {
   overflow-x: hidden;
 }
-body,
-a {
-  color: var(--cv-text-color) !important;
+
+body {
   font-family: var(--cv-main-font);
 }
+
 
 nav {
   background-color: rgba(255, 255, 255, 0.9);
 }
 
 .logo {
-  width: 8.5rem;
+  width: 6.5rem;
 }
 
 .btn-logo {
-  width: 4rem;
+  width: 3rem;
 }
 
 .lista-menu {
@@ -57,11 +58,11 @@ nav {
   margin-left: -32px !important;
 }
 
-.map-svg{
+.map-svg {
   margin-right: .5rem;
 }
 
-.cards-fixed-img{
+.cards-fixed-img {
   width: 1px;
 }
 
@@ -94,7 +95,7 @@ nav {
   background-color: var(--cv-primary) !important;
   border-radius: var(--cv-border-radius-secondary);
   height: 3.5rem;
-  left: 10rem;
+  left: 5rem;
   top: 26rem;
   width: 15rem;
 
@@ -114,7 +115,7 @@ nav {
   top: 40rem;
   z-index: 2;
 
-  width: 100%;
+  width: 95%;
 
 }
 
@@ -132,7 +133,6 @@ nav {
 
   border-radius: var(--cv-border-radius-primary);
   color: var(--cv-color-light);
-  display: flex;
   height: 5rem;
   margin: .5rem 0;
   padding-left: 1rem;
@@ -186,7 +186,7 @@ nav {
 
 .ondas {
   z-index: 0;
-  top: 35rem;
+  top: 36rem;
 
 }
 
@@ -198,11 +198,6 @@ nav {
 
 .icons ul {
   margin-top: -20px;
-
-}
-
-.icons img {
-  width: 7rem;
 
 }
 
@@ -218,14 +213,14 @@ nav {
   flex-wrap: wrap;
   justify-content: center;
 
-  font-size: 3rem;
+  font-size: 2.5rem;
   width: 10rem;
   z-index: 2;
 }
 
 .destaques-titulo span {
   color: var(--cv-color-light);
-  font-size: 4.5rem;
+  font-size: 3.5rem;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: var(--cv-primary);
 
@@ -234,18 +229,18 @@ nav {
 .destaques-texto {
   text-align: center;
 
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   width: 24rem;
 
 }
 
 .card-destaque-status {
   background: #CB251c;
-  height: 3rem;
+  font-size: .8rem;
+  height: 2rem;
   left: 1rem;
   top: 1rem;
-  width: 10rem;
-  font-size: .9rem;
+  width: 9rem;
 
 }
 
@@ -255,14 +250,9 @@ nav {
 
 }
 
-.cv-card-banner {
-  width: 25rem;
-
-}
-
 .cv-card-footer {
   height: 5rem;
-  width: 25rem;
+  width: 107%;
 
 }
 
@@ -277,7 +267,82 @@ nav {
   color: #ffffff !important;
 }
 
+
+.cv-destaque-footer {
+  background-color: var(--cv-primary);
+  color: var(--cv-color-light);
+
+}
+
+.cv-btn-whats-footer {
+  width: 18rem;
+  height: 4rem;
+  background-color: var(--cv-color-light);
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.cv-btn-whats-footer svg {
+  width: 2rem;
+}
+
+.cv-btn-whats-footer,
+.cv-btn-whats-footer:hover {
+  color: var(--cv-primary);
+  font-weight: 700;
+  font-size: .9rem;
+}
+
+.cv-destaque-footer-title {
+  color: #FFF915;
+  font-size: 1.8rem;
+}
+
+.cv-destaque-footer-text {
+  font-size: 1.2rem;
+}
+
+.cv-destaque-footer-text-whats {
+  font-size: 1rem;
+}
+
+.cv-destaque-footer-number-whats {
+  font-size: 1.7rem;
+}
+
+.cv-destaque-footer-whats {
+  bottom: 10vw;
+  width: 100%;
+  position: relative;
+}
+
+.image-destaque-footer {
+  width: 75%;
+}
+
+@media (min-width: 768px) {
+  .image-destaque-footer {
+    width: 50%;
+  }
+
+  .cv-destaque-footer-whats {
+    bottom: 15vw;
+  }
+}
+
 @media (min-width: 992px) {
+
+  .cv-position-lg-absolute {
+    position: absolute !important;
+  }
+
+  .logo {
+    width: 8.5rem;
+  }
+
+  .btn-logo {
+    width: 4rem;
+  }
 
   /* Banner LG */
 
@@ -399,17 +464,32 @@ nav {
     margin: 0;
   }
 
+  .destaques-titulo {
+
+
+    font-size: 3rem;
+
+  }
+
+  .destaques-titulo span {
+
+    font-size: 4.5rem;
+
+
+  }
+
+  .destaques-texto {
+
+    font-size: 1.5rem;
+
+  }
+
   .destaques-texto {
     width: 100%;
   }
 
   .cv-card {
     border-radius: 1rem;
-    width: 18rem;
-
-  }
-
-  .cv-card-banner {
     width: 18rem;
 
   }
@@ -425,7 +505,42 @@ nav {
     height: 4rem;
   }
 
+  .cv-destaque-footer-whats {
+    position: static;
+    width: 25%;
+  }
 
+  .link-whats {
+    height: 4rem;
+  }
+
+  .cv-btn-whats-footer {
+    position: static;
+    transform: none;
+    width: 15rem;
+  }
+
+  .cv-destaque-footer-title {
+    font-size: 1.75rem;
+  }
+
+  .cv-destaque-footer-text {
+    font-size: 1.25rem;
+  }
+
+  .cv-destaque-footer-number-whats {
+    font-size: 1.7rem;
+  }
+
+  .image-destaque-footer {
+    width: 100%;
+    position: relative;
+    bottom: 0;
+  }
+}
+
+.test {
+  height: 100%;
 }
 
 @media (min-width: 1200px) {
@@ -472,15 +587,14 @@ nav {
 
   }
 
-  .cv-card-banner {
-    width: 25rem;
-
-  }
-
   .cv-card-footer {
     height: 5rem;
     width: 25rem;
 
+  }
+
+  .image-destaque-footer {
+    width: 75%;
   }
 
 }
@@ -526,11 +640,6 @@ nav {
   /* Destaques XXL */
   .cv-card {
     border-radius: 1rem;
-    width: 25rem;
-
-  }
-
-  .cv-card-banner {
     width: 25rem;
 
   }
