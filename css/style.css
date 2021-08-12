@@ -320,6 +320,17 @@ nav {
   width: 75%;
 }
 
+.footer-wave-top {
+
+  position: relative;
+  top: 1rem;
+}
+
+.footer-wave-bottom {
+  bottom: 1rem;
+  z-index: -1;
+}
+
 @media (min-width: 768px) {
   .image-destaque-footer {
     width: 50%;
@@ -505,6 +516,23 @@ nav {
     height: 4rem;
   }
 
+  .footer-wave-top,
+  .footer-wave-bottom {
+    z-index: 1;
+  }
+
+  .footer-wave-top {
+    top: .5rem;
+  }
+
+  .footer-wave-bottom {
+    bottom: 9rem;
+  }
+
+  .cv-destaque-footer {
+    bottom: 3.5rem;
+  }
+
   .cv-destaque-footer-whats {
     position: static;
     width: 25%;
@@ -535,7 +563,9 @@ nav {
   .image-destaque-footer {
     width: 100%;
     position: relative;
-    bottom: 0;
+    bottom: -1.5rem;
+    z-index: 1;
+
   }
 }
 
