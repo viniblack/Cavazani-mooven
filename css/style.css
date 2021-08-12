@@ -322,7 +322,7 @@ nav {
 
 .footer-wave-top {
 
-  position: relative;
+  position: absolute;
   top: 1rem;
 }
 
@@ -522,11 +522,11 @@ nav {
   }
 
   .footer-wave-top {
-    top: .5rem;
+    top: -9.5rem;
   }
 
   .footer-wave-bottom {
-    bottom: 9rem;
+    bottom: 0rem;
   }
 
   .cv-destaque-footer {
@@ -564,8 +564,12 @@ nav {
     width: 100%;
     position: relative;
     bottom: -1.5rem;
-    z-index: 1;
+    z-index: 3;
 
+  }
+
+  .test3{
+    margin-top: 8rem;
   }
 }
 
